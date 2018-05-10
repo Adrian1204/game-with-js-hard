@@ -23,7 +23,7 @@ function draw(){
 // converts logical grid into physical display
 function drawPoint(x,y,colorIndex){
     fill(colors[colorIndex]);
-    var jitter = random(5);
+    var jitter = random(-25);
     ellipse(
         x * pointSpacing + margin,
         y * pointSpacing + margin,
